@@ -19,6 +19,39 @@ Our primary focus is on students who need to build software projects but may lac
 
 # Build 
 
+To get started with the project, follow the steps below:
+
+1. Clone the repo
+
+```
+git clone https://github.com/ZejunZhou/Sprints
+```
+
+After switching to the project directory
+
+2. Build the Docker containers:
+
+```
+docker compose build
+```
+
+3. Run the containers in the background
+
+```
+docker compose up -d
+```
+
+4. You can stop and remove the containers at anytime by 
+
+```
+docker compose down
+```
+
+# Access
+
+Open your web browser and visit http://localhost:3000 to interact with the frontend.
+
+
 
 
 
