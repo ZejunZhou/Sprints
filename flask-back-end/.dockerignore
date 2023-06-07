@@ -1,0 +1,4 @@
+.gitignore
+Procfile
+/venv
+/__pycache__

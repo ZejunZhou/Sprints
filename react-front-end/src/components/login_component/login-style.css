@@ -1,0 +1,21 @@
+.form-container {
+  margin: 10;
+  position: relative;
+  height: 100%;
+  color: white;
+}
+
+.login-container {
+  flex: 1;
+  position: relative;
+  height: 100%;
+  color: white;
+  padding: 5%;
+  /* margin: 25; */
+}
+
+.center-container {
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}

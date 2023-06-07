@@ -1,0 +1,24 @@
+{
+  "name": "express-back-end",
+  "version": "1.0.0",
+  "description": "express server for chatroom",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "server",
+    "js",
+    "node",
+    "npm",
+    "chat"
+  ],
+  "author": "sjain85@wisc.edu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1"
+  }
+}

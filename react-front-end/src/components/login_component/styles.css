@@ -1,0 +1,142 @@
+/*********************HTML TAG Selector*************/
+
+/** initialize the page **/
+
+/** Use flex box to make container center vertically and horizontally **/
+/* body,html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: aliceblue;
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+input {
+  outline: none;
+  padding: 16px 20px;
+  background-color: #f1f1f1;
+  margin-bottom: -1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*******************CLASS Selector*******************/
+.box {
+  position: relative;
+  /* background-color: #1e90ff; */
+  width: 50%;
+  height: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container-button {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.container {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+
+.form-container {
+  position: relative;
+  height: 100%;
+  color: white;
+}
+
+.login-button {
+  margin-top: 20px;
+}
+
+.sign-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+.sign-up-container {
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+
+.overlay {
+  background: white;
+  width: 200%;
+  height: 100%;
+  left: -100%;
+  position: relative;
+  transition: all 0.6s ease-in-out;
+  color: #333;
+}
+.overlay-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+  z-index: 99;
+  overflow: hidden;
+}
+
+.overlay-panel {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.overlay-right {
+  right: 0;
+}
+
+/*******************ID Selector*****************/
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+
+/***** animation class selector ********/
+
+.right-panel-active .overlay-container {
+  transform: translateX(-100%);
+}
+
+.right-panel-active .sign-in-container {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.right-panel-active .sign-up-container {
+  z-index: 99;
+  opacity: 1;
+  transform: translateX(100%);
+}
+
+.right-panel-active .overlay {
+  transform: translateX(50%);
+}
