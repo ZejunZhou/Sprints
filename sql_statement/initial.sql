@@ -1,3 +1,4 @@
+-- REFERENCES: SQL statement update referenced from https://github.com/samyak0101/sprints-agile-devops-app
 DELIMITER $$
 
 CREATE DEFINER=`root`@`%` PROCEDURE `submit_answer` (IN `userEmail` VARCHAR(200), IN `answer` INT)   BEGIN

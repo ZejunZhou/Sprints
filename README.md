@@ -51,6 +51,17 @@ docker compose down
 
 Open your web browser and visit http://localhost:3000 to interact with the frontend.
 
+# Author
+
+CS506 Agdev43 Team of the University of Wisconsin - Madison
+
+* Samyak
+* Mark (Zejun)
+* Manisha
+* Caslida
+* Allen
+* Irving
+
 
 
 
